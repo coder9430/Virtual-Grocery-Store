@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { selectItems } from '../cart/cartSlice';
+import { selectItems } from '../cart/cartItemSlice';
 import { selectLoggedInUser } from '../auth/authSlice';
 
 

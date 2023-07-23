@@ -4,7 +4,7 @@ import { RadioGroup } from '@headlessui/react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProductByIdAsync, selectProductById, selectProductListStatus } from '../productSlice';
 import { useParams } from 'react-router-dom';
-import { addToCartAsync, selectItems } from '../../cart/cartSlice';
+import { addToCartAsync, selectItems } from '../../cart/cartItemSlice';
 import { selectLoggedInUser } from '../../auth/authSlice';
 import { discountedPrice } from '../../../app/constants';
 import { useAlert } from 'react-alert';
@@ -54,10 +54,11 @@ export default function ProductDetail() {
 
   const handleCart = (e) => {
     e.preventDefault();
-
+    
     if (items.findIndex((item) => item.product.id === product.id) < 0) {
       console.log({ items, product });
       const newItem = {
+        store_id: product.store_id,
         product: product.id,
         quantity: 1,
         user: user.id,
@@ -68,6 +69,7 @@ export default function ProductDetail() {
     } else {
       alert.error('Item Already added');
     }
+    
   };
 
   useEffect(() => {

@@ -7,7 +7,7 @@ router.post('/', createOrder)
       .get('/user/:userId', fetchOrdersByUser)
       .delete('/:id', deleteOrder)
       .patch('/:id', updateOrder)
-      .get('/',fetchAllOrders)
+      .get('/:id',fetchAllOrders)
 
 
 exports.router = router;
