@@ -12,6 +12,8 @@ const authRouter = require('./routes/Auth');
 const cartRouter = require('./routes/Cart');
 const ordersRouter = require('./routes/Order');
 
+// app.use(express.static('images'))
+
 
 //middlewares
 

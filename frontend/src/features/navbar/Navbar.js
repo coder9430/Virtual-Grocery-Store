@@ -44,7 +44,7 @@ function NavBar({ children }) {
                       <Link to="/">
                         <img
                           className="h-8 w-8"
-                          src="/ecommerce.png"
+                          src={require('./basket.png')}
                           alt="Your Company"
                         />
                       </Link>
@@ -98,7 +98,7 @@ function NavBar({ children }) {
                             <span className="sr-only">Open user menu</span>
                             <img
                               className="h-8 w-8 rounded-full"
-                              src={user.imageUrl}
+                              src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png?w=740&t=st=1690116325~exp=1690116925~hmac=4929eac90da713679198259b0a797fc19c6bc1f4ed80428f889d74d4a4ca9b4a"
                               alt=""
                             />
                           </Menu.Button>
@@ -177,7 +177,7 @@ function NavBar({ children }) {
                     <div className="flex-shrink-0">
                       <img
                         className="h-10 w-10 rounded-full"
-                        src={user.imageUrl}
+                        src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png?w=740&t=st=1690116325~exp=1690116925~hmac=4929eac90da713679198259b0a797fc19c6bc1f4ed80428f889d74d4a4ca9b4a"
                         alt=""
                       />
                     </div>
