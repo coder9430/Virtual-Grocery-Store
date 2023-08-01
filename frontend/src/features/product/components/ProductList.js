@@ -1,5 +1,5 @@
-import React, { useState, Fragment, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React, { useState, Fragment, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import {
   fetchBrandsAsync,
   fetchCategoriesAsync,
@@ -9,34 +9,34 @@ import {
   selectCategories,
   selectProductListStatus,
   selectTotalItems,
-} from '../productSlice';
-import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react';
-import { XMarkIcon } from '@heroicons/react/24/outline';
+} from "../productSlice";
+import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
   StarIcon,
-} from '@heroicons/react/20/solid';
-import { Link } from 'react-router-dom';
+} from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
 import {
   ChevronDownIcon,
   FunnelIcon,
   MinusIcon,
   PlusIcon,
   Squares2X2Icon,
-} from '@heroicons/react/20/solid';
-import { ITEMS_PER_PAGE, discountedPrice } from '../../../app/constants';
-import Pagination from '../../common/Pagination';
-import { Grid } from 'react-loader-spinner';
+} from "@heroicons/react/20/solid";
+import { ITEMS_PER_PAGE, discountedPrice } from "../../../app/constants";
+import Pagination from "../../common/Pagination";
+import { Grid } from "react-loader-spinner";
 
 const sortOptions = [
-  { name: 'Best Rating', sort: 'rating', order: 'desc', current: false },
-  { name: 'Price: Low to High', sort: 'price', order: 'asc', current: false },
-  { name: 'Price: High to Low', sort: 'price', order: 'desc', current: false },
+  { name: "Best Rating", sort: "rating", order: "desc", current: false },
+  { name: "Price: Low to High", sort: "price", order: "asc", current: false },
+  { name: "Price: High to Low", sort: "price", order: "desc", current: false },
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function ProductList() {
@@ -48,27 +48,22 @@ export default function ProductList() {
   const status = useSelector(selectProductListStatus);
   const filters = [
     {
-      id: 'category',
-      name: 'Category',
+      id: "category",
+      name: "Category",
       options: categories,
     },
     {
-      id: 'brand',
-      name: 'Brands',
+      id: "brand",
+      name: "Brands",
       options: brands,
     },
-    {
-      id:'pincode',
-      name: 'pincode',
-      options:brands,
-    }
-  ];
+    ];
 
   const [filter, setFilter] = useState({});
   const [sort, setSort] = useState({});
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [page, setPage] = useState(1);
-  const [pincode, setPincode] = useState('');
+  const [pincode, setPincode] = useState("");
 
   const handlePincodeChange = (e) => {
     setPincode(e.target.value);
@@ -76,24 +71,27 @@ export default function ProductList() {
 
   const handlePincodeFilter = (e) => {
     e.preventDefault(); // Prevent form submission
-  
+
     const newFilter = { ...filter };
-  
+
     // Check if the pincode already exists in the filter
-    const pincodeExists = newFilter["pincode"] && newFilter["pincode"].includes(pincode);
-  
+    const pincodeExists =
+      newFilter["pincode"] && newFilter["pincode"].includes(pincode);
+
     if (!pincodeExists) {
       // If the pincode doesn't exist in the filter, add it
       newFilter["pincode"] = [...(newFilter["pincode"] || []), pincode];
-      console.log(filter)
+      console.log(filter);
       console.log("Added pincode to filter:", pincode);
     } else {
       // If the pincode already exists in the filter, remove it
-      newFilter["pincode"] = newFilter["pincode"].filter((item) => item !== pincode);
-      console.log(filter)
+      newFilter["pincode"] = newFilter["pincode"].filter(
+        (item) => item !== pincode
+      );
+      console.log(filter);
       console.log("Removed pincode from filter:", pincode);
     }
-  
+
     setFilter(newFilter);
     setPincode(""); // Reset the pincode input field
   };
@@ -191,10 +189,10 @@ export default function ProductList() {
                               onClick={(e) => handleSort(e, option)}
                               className={classNames(
                                 option.current
-                                  ? 'font-medium text-gray-900'
-                                  : 'text-gray-500',
-                                active ? 'bg-gray-100' : '',
-                                'block px-4 py-2 text-sm'
+                                  ? "font-medium text-gray-900"
+                                  : "text-gray-500",
+                                active ? "bg-gray-100" : "",
+                                "block px-4 py-2 text-sm"
                               )}
                             >
                               {option.name}
@@ -264,6 +262,9 @@ function MobileFilter({
   setMobileFiltersOpen,
   handleFilter,
   filters,
+  pincode,
+  handlePincodeChange,
+  handlePincodeFilter,
 }) {
   return (
     <Transition.Root show={mobileFiltersOpen} as={Fragment}>
@@ -369,6 +370,22 @@ function MobileFilter({
                     )}
                   </Disclosure>
                 ))}
+                <div className="flex flex-row items-center mt-4">
+        <input
+          type="text"
+          id="pincodeInput"
+          value={pincode}
+          placeholder="Enter your pincode"
+          onChange={handlePincodeChange}
+          className="ml-4 h-8 px-2 border rounded focus:ring-indigo-500 focus:border-indigo-500"
+        />
+        <button
+          onClick={handlePincodeFilter}
+          className="ml-4 h-8 px-4 py-1 text-sm bg-indigo-600 text-white rounded hover:bg-indigo-700 focus:ring focus:ring-indigo-500 focus:ring-opacity-50"
+        >
+          Apply
+        </button>
+      </div>
               </form>
             </Dialog.Panel>
           </Transition.Child>
@@ -378,7 +395,13 @@ function MobileFilter({
   );
 }
 
-function DesktopFilter({ handleFilter, filters,handlePincodeFilter,pincode,handlePincodeChange }) {
+function DesktopFilter({
+  handleFilter,
+  filters,
+  handlePincodeFilter,
+  pincode,
+  handlePincodeChange,
+}) {
   return (
     <form className="hidden lg:block">
       {filters.map((section) => (
@@ -430,28 +453,22 @@ function DesktopFilter({ handleFilter, filters,handlePincodeFilter,pincode,handl
           )}
         </Disclosure>
       ))}
-      <div className="flex items-center mt-">
-  {/* <label htmlFor="pincodeInput" className="text-sm text-gray-600">
-    Pincode:
-  </label> */}
-  <div className="flex flex-col">
-    <input
-      type="text"
-      id="pincodeInput"
-      value={pincode}
-      placeholder="Enter your pincode"
-      onChange={handlePincodeChange}
-      className="ml-3 h-8 px-2 border rounded focus:ring-indigo-500 focus:border-indigo-500"
-    />
-    <button
-      onClick={handlePincodeFilter}
-      className="mt-2 px-4 py-1 text-sm bg-indigo-600 text-white rounded hover:bg-indigo-700 focus:ring focus:ring-indigo-500 focus:ring-opacity-50"
-    >
-      Apply
-    </button>
-  </div>
-</div>
-
+      <div className="flex flex-col xl:flex-row items-center mt-4">
+        <input
+          type="text"
+          id="pincodeInput"
+          value={pincode}
+          placeholder="Enter your pincode"
+          onChange={handlePincodeChange}
+          className="h-8 px-2 border rounded focus:ring-indigo-500 focus:border-indigo-500"
+        />
+        <button
+          onClick={handlePincodeFilter}
+          className=" h-8 xl:ml-2 mt-2 xl:mt-0 px-4 py-1 text-sm bg-indigo-600 text-white rounded hover:bg-indigo-700 focus:ring focus:ring-indigo-500 focus:ring-opacity-50"
+        >
+          Apply
+        </button>
+      </div>
     </form>
   );
 }
@@ -459,71 +476,72 @@ function DesktopFilter({ handleFilter, filters,handlePincodeFilter,pincode,handl
 function ProductGrid({ products, status }) {
   return (
     <div className="bg-white">
-  <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
-    <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-      {status === 'loading' ? (
-        <Grid
-          height="80"
-          width="80"
-          color="rgb(79, 70, 229) "
-          ariaLabel="grid-loading"
-          radius="12.5"
-          wrapperStyle={{}}
-          wrapperClass=""
-          visible={true}
-        />
-      ) : null}
-      {products.map((product) => (
-        <Link to={`/product-detail/${product.id}`} key={product.id}>
-          <div className="group relative border-solid border-2 p-2 border-gray-200">
-            <div className="min-h-60 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-60">
-              <img
-                src={product.thumbnail}
-                alt={product.title}
-                className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-              />
-            </div>
-            <div className="mt-4 flex justify-between">
-              <div>
-                <h3 className="text-sm text-gray-700">
-                  <div href={product.thumbnail}>
-                    <span aria-hidden="true" className="absolute inset-0" />
-                    {product.title}
+      <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
+        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+          {status === "loading" ? (
+            <Grid
+              height="80"
+              width="80"
+              color="rgb(79, 70, 229) "
+              ariaLabel="grid-loading"
+              radius="12.5"
+              wrapperStyle={{}}
+              wrapperClass=""
+              visible={true}
+            />
+          ) : null}
+          {products.map((product) => (
+            <Link to={`/product-detail/${product.id}`} key={product.id}>
+              <div className="group relative border-solid border-2 p-2 border-gray-200">
+                <div className="min-h-60 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-60">
+                  <img
+                    src={product.thumbnail}
+                    alt={product.title}
+                    className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                  />
+                </div>
+                <div className="mt-4 flex justify-between">
+                  <div>
+                    <h3 className="text-sm text-gray-700">
+                      <div href={product.thumbnail}>
+                        <span aria-hidden="true" className="absolute inset-0" />
+                        {product.title}
+                      </div>
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-500">
+                      <StarIcon className="w-6 h-6 inline" />
+                      <span className="align-bottom">{product.rating}</span>
+                    </p>
+                    {/* Displaying the store_name */}
+                    <p className="mt-1 text-sm text-gray-500">
+                      Store: {product.store_name}
+                    </p>
                   </div>
-                </h3>
-                <p className="mt-1 text-sm text-gray-500">
-                  <StarIcon className="w-6 h-6 inline" />
-                  <span className="align-bottom">{product.rating}</span>
-                </p>
-                {/* Displaying the store_name */}
-                <p className="mt-1 text-sm text-gray-500">Store: {product.store_name}</p>
+                  <div>
+                    <p className="text-sm block font-medium text-gray-900">
+                      &#8377;{discountedPrice(product)}
+                    </p>
+                    <p className="text-sm block line-through font-medium text-gray-400">
+                      &#8377;{product.price}
+                    </p>
+                  </div>
+                </div>
+                {product.deleted && (
+                  <div>
+                    <p className="text-sm text-red-400">product deleted</p>
+                  </div>
+                )}
+                {product.stock <= 0 && (
+                  <div>
+                    <p className="text-sm text-red-400">out of stock</p>
+                  </div>
+                )}
+                {/* TODO: will not be needed when backend is implemented */}
               </div>
-              <div>
-                <p className="text-sm block font-medium text-gray-900">
-                &#8377;{discountedPrice(product)}
-                </p>
-                <p className="text-sm block line-through font-medium text-gray-400">
-                &#8377;{product.price}
-                </p>
-              </div>
-            </div>
-            {product.deleted && (
-              <div>
-                <p className="text-sm text-red-400">product deleted</p>
-              </div>
-            )}
-            {product.stock <= 0 && (
-              <div>
-                <p className="text-sm text-red-400">out of stock</p>
-              </div>
-            )}
-            {/* TODO: will not be needed when backend is implemented */}
-          </div>
-        </Link>
-      ))}
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
   );
 }
