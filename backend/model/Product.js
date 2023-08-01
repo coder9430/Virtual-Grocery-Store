@@ -16,6 +16,7 @@ const productSchema = new Schema({
     deleted: { type : Boolean, default: false},
     store_name:{type:String},
     store_id:{type:String},
+    pincodes:{type:[Schema.Types.Mixed]},
     
 })
 

@@ -83,8 +83,10 @@ function ProductForm() {
         product.discountPercentage = +product.discountPercentage;
         product.store_name = user_info.store_name
         product.store_id = user_info.id
+        product.pincodes = user_info.pincodes
         // product.store_id = user_info.store_id
         console.log(product);
+        console.log(user_info)
 
         if (params.id) {
           product.id = params.id;
