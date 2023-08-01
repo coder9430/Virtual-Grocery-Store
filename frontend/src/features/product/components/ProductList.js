@@ -57,12 +57,46 @@ export default function ProductList() {
       name: 'Brands',
       options: brands,
     },
+    {
+      id:'pincode',
+      name: 'pincode',
+      options:brands,
+    }
   ];
 
   const [filter, setFilter] = useState({});
   const [sort, setSort] = useState({});
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [page, setPage] = useState(1);
+  const [pincode, setPincode] = useState('');
+
+  const handlePincodeChange = (e) => {
+    setPincode(e.target.value);
+  };
+
+  const handlePincodeFilter = (e) => {
+    e.preventDefault(); // Prevent form submission
+  
+    const newFilter = { ...filter };
+  
+    // Check if the pincode already exists in the filter
+    const pincodeExists = newFilter["pincode"] && newFilter["pincode"].includes(pincode);
+  
+    if (!pincodeExists) {
+      // If the pincode doesn't exist in the filter, add it
+      newFilter["pincode"] = [...(newFilter["pincode"] || []), pincode];
+      console.log(filter)
+      console.log("Added pincode to filter:", pincode);
+    } else {
+      // If the pincode already exists in the filter, remove it
+      newFilter["pincode"] = newFilter["pincode"].filter((item) => item !== pincode);
+      console.log(filter)
+      console.log("Removed pincode from filter:", pincode);
+    }
+  
+    setFilter(newFilter);
+    setPincode(""); // Reset the pincode input field
+  };
 
   const handleFilter = (e, section, option) => {
     console.log(e.target.checked);
@@ -199,6 +233,9 @@ export default function ProductList() {
             <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
               <DesktopFilter
                 handleFilter={handleFilter}
+                handlePincodeChange={handlePincodeChange}
+                handlePincodeFilter={handlePincodeFilter}
+                pincode={pincode}
                 filters={filters}
               ></DesktopFilter>
               {/* Product grid */}
@@ -221,7 +258,7 @@ export default function ProductList() {
     </div>
   );
 }
-
+// TODO: ADDING THE PINCODE SECTION IN MOBILE VIEW
 function MobileFilter({
   mobileFiltersOpen,
   setMobileFiltersOpen,
@@ -341,7 +378,7 @@ function MobileFilter({
   );
 }
 
-function DesktopFilter({ handleFilter, filters }) {
+function DesktopFilter({ handleFilter, filters,handlePincodeFilter,pincode,handlePincodeChange }) {
   return (
     <form className="hidden lg:block">
       {filters.map((section) => (
@@ -393,6 +430,28 @@ function DesktopFilter({ handleFilter, filters }) {
           )}
         </Disclosure>
       ))}
+      <div className="flex items-center mt-">
+  {/* <label htmlFor="pincodeInput" className="text-sm text-gray-600">
+    Pincode:
+  </label> */}
+  <div className="flex flex-col">
+    <input
+      type="text"
+      id="pincodeInput"
+      value={pincode}
+      placeholder="Enter your pincode"
+      onChange={handlePincodeChange}
+      className="ml-3 h-8 px-2 border rounded focus:ring-indigo-500 focus:border-indigo-500"
+    />
+    <button
+      onClick={handlePincodeFilter}
+      className="mt-2 px-4 py-1 text-sm bg-indigo-600 text-white rounded hover:bg-indigo-700 focus:ring focus:ring-indigo-500 focus:ring-opacity-50"
+    >
+      Apply
+    </button>
+  </div>
+</div>
+
     </form>
   );
 }

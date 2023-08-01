@@ -15,8 +15,10 @@ exports.createProduct = async (req, res) => {
 
 exports.fetchAllProducts = async (req, res) => {
   // filter = {"category":["smartphone","laptops"]}
+  // added pincode in filter also
   // sort = {_sort:"price",_order="desc"}
   // pagination = {_page:1,_limit=10}
+  // console.log(req.query)
   // TODO : we have to try with multiple category and brands after change in front-end
   let condition = {}
   if(!req.query.admin){
@@ -36,6 +38,15 @@ exports.fetchAllProducts = async (req, res) => {
     query = query.find({ brand: req.query.brand });
     totalProductsQuery = totalProductsQuery.find({ brand: req.query.brand });
   }
+
+  if (req.query.pincode) {
+    // If pincode parameter is provided in the request
+    const pincode = req.query.pincode;
+    query = query.find({pincodes:`${req.query.pincode}`}); // Filter products with the specified pincode
+    totalProductsQuery = totalProductsQuery.find({ pincodes: pincode }); // Filter total products with the specified pincode
+  console.log(query)
+  console.log(totalProductsQuery)
+  }
   //TODO : How to get sort on discounted Price not on Actual price
   if (req.query._sort && req.query._order) {
     query = query.sort({ [req.query._sort]: req.query._order });
@@ -49,6 +60,8 @@ exports.fetchAllProducts = async (req, res) => {
     const page = req.query._page;
     query = query.skip(pageSize * (page - 1)).limit(pageSize);
   }
+
+
 
   try {
     const docs = await query.exec();
