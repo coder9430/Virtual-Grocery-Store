@@ -1,8 +1,9 @@
 import Signup from "../features/auth/components/Signup";
+import "./SignupPage.css"
 
 function SignupPage() {
     return ( 
-        <div>
+        <div className="main">
             <Signup></Signup>
         </div>
      );

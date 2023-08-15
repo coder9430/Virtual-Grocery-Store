@@ -1,0 +1,49 @@
+.gparent
+{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    
+    /* Additional background properties if needed */
+    /* background-size: cover; */
+    background-position: center;
+}
+.head
+{
+    color: #93C572;
+}
+.parent
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin: 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.img
+{
+    width: 80%;
+    border: 1px;
+}
+.list
+{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    padding: 30px;
+
+}
+
+@media screen and (max-width: 768px) {
+   .parent
+   {
+    display: flex;
+    flex-direction: column;
+   }
+  }
+  
+
+

@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectItems } from '../cart/cartItemSlice';
 import { selectLoggedInUser } from '../auth/authSlice';
+import "./Navbar.css"
 
 
 const navigation = [
@@ -34,7 +35,7 @@ function NavBar({ children }) {
   return (
     <>
       <div className="min-h-full">
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-gray-800" id='nav'>
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -44,7 +45,7 @@ function NavBar({ children }) {
                       <Link to="/">
                         <img
                           className="h-8 w-8"
-                          src={require('./basket.png')}
+                          src={require('./shop.png')}
                           alt="Your Company"
                         />
                       </Link>
@@ -98,7 +99,7 @@ function NavBar({ children }) {
                             <span className="sr-only">Open user menu</span>
                             <img
                               className="h-8 w-8 rounded-full"
-                              src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png?w=740&t=st=1690116325~exp=1690116925~hmac=4929eac90da713679198259b0a797fc19c6bc1f4ed80428f889d74d4a4ca9b4a"
+                              src="https://cdn-icons-png.flaticon.com/128/3870/3870822.png"
                               alt=""
                             />
                           </Menu.Button>
@@ -177,7 +178,7 @@ function NavBar({ children }) {
                     <div className="flex-shrink-0">
                       <img
                         className="h-10 w-10 rounded-full"
-                        src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png?w=740&t=st=1690116325~exp=1690116925~hmac=4929eac90da713679198259b0a797fc19c6bc1f4ed80428f889d74d4a4ca9b4a"
+                        src="https://cdn-icons-png.flaticon.com/128/7662/7662049.png"
                         alt=""
                       />
                     </div>
@@ -225,10 +226,10 @@ function NavBar({ children }) {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow">
-          <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <header className="bg-white shadow" >
+          <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8" id='snav' >
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
-              E-Commerce
+            Grocery Depot
             </h1>
           </div>
         </header>

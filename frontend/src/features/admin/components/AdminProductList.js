@@ -114,8 +114,10 @@ export default function AdminProductList() {
           setMobileFiltersOpen={setMobileFiltersOpen}
           filters={filters}
         ></MobileFilter>
+         
 
         <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        
           <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">
               All Products
@@ -319,7 +321,7 @@ function MobileFilter({
                                   onChange={(e) =>
                                     handleFilter(e, section, option)
                                   }
-                                  className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                  className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500"
                                 />
                                 <label
                                   htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
@@ -380,7 +382,7 @@ function DesktopFilter({ handleFilter, filters }) {
                         type="checkbox"
                         defaultChecked={option.checked}
                         onChange={(e) => handleFilter(e, section, option)}
-                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                        className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500"
                       />
                       <label
                         htmlFor={`filter-${section.id}-${optionIdx}`}
@@ -455,9 +457,9 @@ function Pagination({ page, setPage, handlePage, totalItems }) {
                 aria-current="page"
                 className={`relative cursor-pointer z-10 inline-flex items-center ${
                   index + 1 === page
-                    ? 'bg-indigo-600 text-white'
+                    ? 'bg-green-600 text-white'
                     : 'text-gray-400'
-                } px-4 py-2 text-sm font-semibold  focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
+                } px-4 py-2 text-sm font-semibold  focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600`}
               >
                 {index + 1}
               </div>
@@ -534,7 +536,7 @@ function ProductGrid({ products }) {
               <div className="mt-5">
                 <Link
                   to={`/admin/product-form/edit/${product.id}`}
-                  className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                 >
                   Edit Product
                 </Link>

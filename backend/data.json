@@ -2,257 +2,261 @@
   "products": [
     {
       "id": 1,
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 993,
-      "discountPercentage": 12.96,
+      "title": "Organic Tattva Toor/Arhar Dal (Split)  (1 kg)",
+      "description": "Expiry Date 19 May 2024 Manufactured date 26 May 2023",
+      "price": 295,
+      "discountPercentage": 26.00,
       "rating": 0,
       "stock": 0,
       "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "category": "Dal_and_pulses",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/9/t/c/1-arhar-tur-dal-toor-dal-organic-tattva-original-imafym8trwt5gvhx.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/9/t/c/1-arhar-tur-dal-toor-dal-organic-tattva-original-imafym8tzy3b79bz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/9/t/c/1-arhar-tur-dal-toor-dal-organic-tattva-original-imafym8tzy3b79bz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/9/t/c/1-arhar-tur-dal-toor-dal-organic-tattva-original-imafym8tzgzz6gfw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/9/t/c/1-arhar-tur-dal-toor-dal-organic-tattva-original-imafym8t4hzhkvm4.jpeg?q=70"
       ],
       "deleted": true
     },
     {
       "id": 2,
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 1111,
-      "discountPercentage": 17.94,
+      "title": "Tata Sampann Toor Dal 1 kg with Urad Dal (whole) 1 kg  (2 kg)",
+      "description": "Expiry Date 20 Mar 2024 Manufactured date 27 Jun 2023",
+      "price": 468,
+      "discountPercentage": 40.00,
       "rating": 0,
       "stock": 34,
       "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "category": "Dal_and_pulses",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/e/2/l/-original-imagpgzkg3zbpjw3.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/2/1.jpg",
-        "https://i.dummyjson.com/data/products/2/2.jpg",
-        "https://i.dummyjson.com/data/products/2/3.jpg",
-        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/e/2/l/-original-imagpgzkg3zbpjw3.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/j/y/d/-original-imagpgzk9xru7xf4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/n/l/7/-original-imagpgzkzyrsyysm.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/c/9/d/-original-imagpgzkczn9bbmu.jpeg?q=70"
       ],
       "deleted": true
     },
     {
       "id": 3,
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
+      "title": "Tata Sampann Green Moong Dal (Split/Chilka)  (500 g)",
+      "description": "Expiry Date 03 May 2024 Manufactured date 08 Aug 2023",
+      "price": 170,
+      "discountPercentage": 41.00,
       "rating": 4.09,
       "stock": 36,
       "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "category": "Dal_and_pulses",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/c/k/o/-original-imagpgzhhammd6z5.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/c/k/o/-original-imagpgzhhammd6z5.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/j/j/o/-original-imagpgzh3zjzyw7c.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/t/x/j/-original-imagpgzhgktee8fr.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/v/9/c/-original-imagpgzh8heeqcxb.jpeg?q=70"
       ],
       "deleted": true
     },
     {
       "id": 4,
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 300,
-      "discountPercentage": 17.91,
+      "title": "Classic Masoor Dal (Split) by Flipkart Grocery  (1 kg)",
+      "description": "Expiry Date 03 May 2024 Manufactured date 08 Aug 2023",
+      "price": 170,
+      "discountPercentage": 41.00,
       "rating": 0,
       "stock": 123,
       "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+      "category": "Dal_and_pulses",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/f/d/w/-original-imaghg9uah4tc4ur.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/4/1.jpg",
-        "https://i.dummyjson.com/data/products/4/2.jpg",
-        "https://i.dummyjson.com/data/products/4/3.jpg",
-        "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/f/d/w/-original-imaghg9uah4tc4ur.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/n/6/u/-original-imaghg9ujywezpah.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/s/j/u/-original-imaghg9ug4ke9xhz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/pulses/s/j/u/-original-imaghg9ug4ke9xhz.jpeg?q=70"
       ]
     },
     {
       "id": 5,
-      "title": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-      "price": 499,
-      "discountPercentage": 10.58,
+      "title": "Organic Tattva Kabuli Chana (Whole)  (1 kg)",
+      "description": "Expiry Date 25 Mar 2024 Manufactured date 01 Apr 2023",
+      "price": 345,
+      "discountPercentage": 14.58,
       "rating": 4.09,
       "stock": 32,
       "brand": "Huawei",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+      "category": "Dal_and_pulses",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/c/h/n/1-kabuli-chana-kabuli-chana-organic-tattva-original-imafym8wwt4dmdyb.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/5/1.jpg",
-        "https://i.dummyjson.com/data/products/5/2.jpg",
-        "https://i.dummyjson.com/data/products/5/3.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/c/h/n/1-kabuli-chana-kabuli-chana-organic-tattva-original-imafym8wwt4dmdyb.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/c/h/n/1-kabuli-chana-kabuli-chana-organic-tattva-original-imafym8wh8gcrnfk.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/c/h/n/1-kabuli-chana-kabuli-chana-organic-tattva-original-imafym8wxguxzddz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kixgtjk0/pulses/c/h/n/1-kabuli-chana-kabuli-chana-organic-tattva-original-imafym8wgjucgh7p.jpeg?q=70"
       ]
     },
     {
       "id": 6,
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1999,
-      "discountPercentage": 11.02,
+      "title": "Fortune Soya Granules  (25 g Extra in Pack)  (200 g)",
+      "description": "Expiry Date 07 May 2024  Manufactured date 14 May 2023",
+      "price": 60,
+      "discountPercentage": 10.02,
       "rating": 0,
       "stock": 83,
       "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "category": "Dal_and_pulses",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kxz0pe80/soya-chunk/t/h/b/200-soya-granules-box-1-soya-granules-fortune-original-imagab6byryhazyw.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/thumbnail.png"
+        "https://rukminim2.flixcart.com/image/416/416/kxz0pe80/soya-chunk/t/h/b/200-soya-granules-box-1-soya-granules-fortune-original-imagab6byryhazyw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kxz0pe80/soya-chunk/u/y/i/200-soya-granules-box-1-soya-granules-fortune-original-imagab6bxeqfw72e.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kxz0pe80/soya-chunk/t/w/o/200-soya-granules-box-1-soya-granules-fortune-original-imagab6b7ugzfez4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kxz0pe80/soya-chunk/t/x/i/200-soya-granules-box-1-soya-granules-fortune-original-imagab6b83dethpn.jpeg?q=70"
       ]
     },
     {
       "id": 7,
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
+      "title": "Saffola Gold Refined Cooking Rice Bran & Sunflower Blended Oil Can  (1l Saffola Gold Pouch Free)  (5 L)",
+      "description": "Expiry Date 21 Dec 2023  Manufactured date 27 Mar 2023",
+      "price": 1060,
+      "discountPercentage": 12.15,
       "rating": 4.25,
       "stock": 50,
       "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "category": "Ghee_and_oil",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/ky3b0y80/edible-oil/u/z/m/-original-imagaefd5rdhtk25.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/7/1.jpg",
-        "https://i.dummyjson.com/data/products/7/2.jpg",
-        "https://i.dummyjson.com/data/products/7/3.jpg",
-        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/ky3b0y80/edible-oil/u/z/m/-original-imagaefd5rdhtk25.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ky3b0y80/edible-oil/u/c/5/-original-imagaefdmkzhzfze.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kwmfqfk0/edible-oil/b/i/u/3-refined-cooking-oil-blend-of-rice-bran-sunflower-oil-helps-original-imag99g63rzfatqd.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ky3b0y80/edible-oil/n/a/2/-original-imagaefd2reajxde.jpeg?q=70"
       ]
     },
     {
       "id": 8,
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
+      "title": "AASHIRVAAD Svasti Pure Cow Ghee 1 L Tetrapack",
+      "description": "Expiry Date 02 Apr 2024  Manufactured date 09 Apr 2023",
+      "price": 785,
+      "discountPercentage": 12.23,
       "rating": 4.43,
       "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "brand": "Aashirvaad",
+      "category": "Ghee_and_oil",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/ks4yz680/ghee/q/a/g/pure-cow-tetrapack-aashirvaad-original-imag5rszyqtzrzcf.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/ks4yz680/ghee/q/a/g/pure-cow-tetrapack-aashirvaad-original-imag5rszyqtzrzcf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ks4yz680/ghee/j/w/x/pure-cow-tetrapack-aashirvaad-original-imag5rszfqcz8zur.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ks4yz680/ghee/q/2/g/pure-cow-tetrapack-aashirvaad-original-imag5rszhhwm8cpm.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ks4yz680/ghee/z/x/q/pure-cow-tetrapack-aashirvaad-original-imag5rszpeffr2yr.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ks4yz680/ghee/u/g/a/pure-cow-tetrapack-aashirvaad-original-imag5rszhxjfnzns.jpeg?q=70"
       ]
     },
     {
       "id": 9,
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
+      "title": "Fortune Sunlite Refined Sunflower Oil Can  (5 L)",
+      "description": "Expiry Date 13 Jul 2024  Manufactured date 20 Jul 2023",
+      "price": 720,
       "discountPercentage": 11.83,
       "rating": 4.54,
       "stock": 96,
       "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "category": "Ghee_and_oil",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kflftzk0hlty2aw-0/edible-oil/2/m/z/sunlite-refined-can-sunflower-oil-fortune-original-imafw37vp5mntzzh.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/9/1.jpg",
-        "https://i.dummyjson.com/data/products/9/2.png",
-        "https://i.dummyjson.com/data/products/9/3.png",
-        "https://i.dummyjson.com/data/products/9/4.jpg",
-        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/kflftzk0hlty2aw-0/edible-oil/2/m/z/sunlite-refined-can-sunflower-oil-fortune-original-imafw37vp5mntzzh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kflftzk0hlty2aw-0/edible-oil/f/v/o/sunlite-refined-can-sunflower-oil-fortune-original-imafw37vxx5yznf8.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kflftzk0hlty2aw-0/edible-oil/x/y/t/sunlite-refined-can-sunflower-oil-fortune-original-imafw37vfhbu7wwf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/edible-oil/d/n/b/-original-imaggthhtrmae38n.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kflftzk0hlty2aw-0/edible-oil/w/z/5/refined-can-soyabean-oil-fortune-original-imafw33naysfzqhg.jpeg?q=70"
       ]
     },
     {
       "id": 10,
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "price": 1099,
-      "discountPercentage": 6.18,
+      "title": "Fortune Kachi Ghani Mustard Oil Can  (5 L)",
+      "description": "Expiry Date 16 Jun 2024  Manufactured date 23 Jun 2023",
+      "price": 758,
+      "discountPercentage": 13.18,
       "rating": 4.43,
       "stock": 89,
       "brand": "HP Pavilion",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+      "category": "Ghee_and_oil",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kqidx8w0/edible-oil/u/4/x/kachi-ghani-can-mustard-oil-fortune-original-imag4gbyyr2jzfdq.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/10/1.jpg",
-        "https://i.dummyjson.com/data/products/10/2.jpg",
-        "https://i.dummyjson.com/data/products/10/3.jpg",
-        "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+        "https://rukminim2.flixcart.com/image/416/416/kqidx8w0/edible-oil/u/4/x/kachi-ghani-can-mustard-oil-fortune-original-imag4gbyyr2jzfdq.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqidx8w0/edible-oil/v/3/a/kachi-ghani-can-mustard-oil-fortune-original-imag4gbyeyrrduxw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqidx8w0/edible-oil/y/m/q/kachi-ghani-can-mustard-oil-fortune-original-imag4gbygvhzgfyk.jpeg?q=70g",
+        "https://rukminim2.flixcart.com/image/416/416/kqidx8w0/edible-oil/4/k/9/kachi-ghani-can-mustard-oil-fortune-original-imag4gbytcuupgwf.jpeg?q=70"
       ]
     },
     {
       "id": 11,
-      "title": "perfume Oil",
-      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-      "price": 13,
-      "discountPercentage": 8.4,
+      "title": "AASHIRVAAD Atta with Multigrains  (5 kg)",
+      "description": "Expiry Date 26 Oct 2023  Manufactured date 29 Jul 2023",
+      "price": 303,
+      "discountPercentage": 13.00,
       "rating": 4.26,
       "stock": 65,
       "brand": "Impression of Acqua Di Gio",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+      "category": "Atta_and_flours",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/ki96c280/flour/r/j/r/1-atta-with-multigrains-1-multigrain-flour-aashirvaad-original-imafy2vzhha44kgx.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/11/1.jpg",
-        "https://i.dummyjson.com/data/products/11/2.jpg",
-        "https://i.dummyjson.com/data/products/11/3.jpg",
-        "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/ki96c280/flour/r/j/r/1-atta-with-multigrains-1-multigrain-flour-aashirvaad-original-imafy2vzhha44kgx.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/flour/x/2/e/-original-imagkjz8yd7gfm7k.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/flour/b/d/a/-original-imagkjz8ryfbvgy7.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/flour/z/o/x/-original-imagkjz8bxshu85m.jpeg?q=70"
       ]
     },
     {
       "id": 12,
-      "title": "Brown Perfume",
-      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
-      "price": 40,
-      "discountPercentage": 15.66,
+      "title": "Fortune Rawa  (500 g)",
+      "description": "Expiry Date 18 Nov 2023  Manufactured date 22 Jul 2023",
+      "price": 36,
+      "discountPercentage": 29.66,
       "rating": 4,
       "stock": 52,
       "brand": "Royal_Mirage",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+      "category": "Atta_and_flours",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/7/n/l/500-rawa-1-rava-fortune-original-imagcyvsvfpgrgcw.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/12/1.jpg",
-        "https://i.dummyjson.com/data/products/12/2.jpg",
-        "https://i.dummyjson.com/data/products/12/3.png",
-        "https://i.dummyjson.com/data/products/12/4.jpg",
-        "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/7/n/l/500-rawa-1-rava-fortune-original-imagcyvsvfpgrgcw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/5/k/x/500-rawa-1-rava-fortune-original-imagcyvstvbyazcu.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/o/b/y/500-rawa-1-rava-fortune-original-imagcyvsnnrghcrb.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/r/p/x/500-maida-1-maida-fortune-original-imagcyvr3ryfg5sb.jpeg?q=70"
+        
       ]
     },
     {
       "id": 13,
-      "title": "Fog Scent Xpressio Perfume",
-      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-      "price": 13,
-      "discountPercentage": 8.14,
+      "title": "Fortune Maida  (500 g)",
+      "description": "Expiry Date 30 Nov 2023  Manufactured date 02 Aug 2023",
+      "price": 36,
+      "discountPercentage": 30.14,
       "rating": 4.59,
       "stock": 61,
       "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+      "category": "Atta_and_flours",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/f/l/t/500-maida-1-maida-fortune-original-imagcyvreb4v6eas.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/13/1.jpg",
-        "https://i.dummyjson.com/data/products/13/2.png",
-        "https://i.dummyjson.com/data/products/13/3.jpg",
-        "https://i.dummyjson.com/data/products/13/4.jpg",
-        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/f/l/t/500-maida-1-maida-fortune-original-imagcyvreb4v6eas.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/9/m/c/500-maida-1-maida-fortune-original-imagcyvrhgz4pcph.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/s/p/t/500-maida-1-maida-fortune-original-imagcyvr3rzqvtx8.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/flour/r/p/x/500-maida-1-maida-fortune-original-imagcyvr3ryfg5sb.jpeg?q=70"
+        
       ]
     },
     {
       "id": 14,
-      "title": "Non-Alcoholic Concentrated Perfume Oil",
-      "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
-      "price": 120,
-      "discountPercentage": 15.6,
+      "title": "Tata Sampann 100% Chana Dal Fine Besan  (1 kg)",
+      "description": "Expiry Date 19 Feb 2024 Manufactured date 21 Jul 2023",
+      "price": 125,
+      "discountPercentage": 34.6,
       "rating": 4.21,
       "stock": 114,
       "brand": "Al Munakh",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+      "category": "Atta_and_flours",
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/knknc7k0/flour/v/l/e/fine-besan-besan-tata-sampann-original-imag27vfgxfy4qae.jpeg?q=70",
       "images": [
-        "https://i.dummyjson.com/data/products/14/1.jpg",
-        "https://i.dummyjson.com/data/products/14/2.jpg",
-        "https://i.dummyjson.com/data/products/14/3.jpg",
-        "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+        "https://rukminim2.flixcart.com/image/416/416/knknc7k0/flour/v/l/e/fine-besan-besan-tata-sampann-original-imag27vfgxfy4qae.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/knknc7k0/flour/c/a/k/fine-besan-besan-tata-sampann-original-imag27vfwjpehgrj.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/knknc7k0/flour/c/p/x/fine-besan-besan-tata-sampann-original-imag27vfzztqrdrg.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/knknc7k0/flour/5/p/5/fine-besan-besan-tata-sampann-original-imag27vf9zfeg7qv.jpeg?q=70"
       ]
     },
     {
@@ -1860,497 +1864,183 @@
   ],
   "brands": [
     {
-      "value": "Apple",
-      "label": "Apple",
+      "value": "Fortune",
+      "label": "Fortune",
       "checked": false
     },
     {
-      "value": "Samsung",
-      "label": "Samsung",
+      "value": "Classic",
+      "label": "Classic",
       "checked": false
     },
     {
-      "value": "OPPO",
-      "label": "OPPO",
+      "value": "Saffola",
+      "label": "Saffola",
       "checked": false
     },
     {
-      "value": "Huawei",
-      "label": "Huawei",
+      "value": "Orgainc tattva",
+      "label": "Orgainc tattva",
       "checked": false
     },
     {
-      "value": "Microsoft Surface",
-      "label": "Microsoft Surface",
+      "value": "Aashirvaad",
+      "label": "Aashirvaad",
       "checked": false
     },
     {
-      "value": "Infinix",
-      "label": "Infinix",
-      "checked": false
-    },
-    {
-      "value": "HP Pavilion",
-      "label": "HP Pavilion",
-      "checked": false
-    },
-    {
-      "value": "Impression of Acqua Di Gio",
-      "label": "Impression of Acqua Di Gio",
-      "checked": false
-    },
-    {
-      "value": "Royal_Mirage",
-      "label": "Royal_Mirage",
-      "checked": false
-    },
-    {
-      "value": "Fog Scent Xpressio",
-      "label": "Fog Scent Xpressio",
-      "checked": false
-    },
-    {
-      "value": "Al Munakh",
-      "label": "Al Munakh",
-      "checked": false
-    },
-    {
-      "value": "Lord - Al-Rehab",
-      "label": "Lord   Al Rehab",
-      "checked": false
-    },
-    {
-      "value": "L'Oreal Paris",
-      "label": "L'Oreal Paris",
-      "checked": false
-    },
-    {
-      "value": "Hemani Tea",
-      "label": "Hemani Tea",
-      "checked": false
-    },
-    {
-      "value": "Dermive",
-      "label": "Dermive",
-      "checked": false
-    },
-    {
-      "value": "ROREC White Rice",
-      "label": "ROREC White Rice",
-      "checked": false
-    },
-    {
-      "value": "Fair & Clear",
-      "label": "Fair & Clear",
-      "checked": false
-    },
-    {
-      "value": "Saaf & Khaas",
-      "label": "Saaf & Khaas",
-      "checked": false
-    },
-    {
-      "value": "Bake Parlor Big",
-      "label": "Bake Parlor Big",
-      "checked": false
-    },
-    {
-      "value": "Baking Food Items",
-      "label": "Baking Food Items",
-      "checked": false
-    },
-    {
-      "value": "fauji",
-      "label": "fauji",
-      "checked": false
-    },
-    {
-      "value": "Dry Rose",
-      "label": "Dry Rose",
-      "checked": false
-    },
-    {
-      "value": "Boho Decor",
-      "label": "Boho Decor",
-      "checked": false
-    },
-    {
-      "value": "Flying Wooden",
-      "label": "Flying Wooden",
-      "checked": false
-    },
-    {
-      "value": "LED Lights",
-      "label": "LED Lights",
-      "checked": false
-    },
-    {
-      "value": "luxury palace",
-      "label": "luxury palace",
-      "checked": false
-    },
-    {
-      "value": "Golden",
-      "label": "Golden",
-      "checked": false
-    },
-    {
-      "value": "Furniture Bed Set",
-      "label": "Furniture Bed Set",
-      "checked": false
-    },
-    {
-      "value": "Ratttan Outdoor",
-      "label": "Ratttan Outdoor",
-      "checked": false
-    },
-    {
-      "value": "Kitchen Shelf",
-      "label": "Kitchen Shelf",
-      "checked": false
-    },
-    {
-      "value": "Multi Purpose",
-      "label": "Multi Purpose",
-      "checked": false
-    },
-    {
-      "value": "AmnaMart",
-      "label": "AmnaMart",
-      "checked": false
-    },
-    {
-      "value": "Professional Wear",
-      "label": "Professional Wear",
-      "checked": false
-    },
-    {
-      "value": "Soft Cotton",
-      "label": "Soft Cotton",
-      "checked": false
-    },
-    {
-      "value": "Top Sweater",
-      "label": "Top Sweater",
-      "checked": false
-    },
-    {
-      "value": "RED MICKY MOUSE..",
-      "label": "RED MICKY MOUSE..",
-      "checked": false
-    },
-    {
-      "value": "Digital Printed",
-      "label": "Digital Printed",
-      "checked": false
-    },
-    {
-      "value": "Ghazi Fabric",
-      "label": "Ghazi Fabric",
-      "checked": false
-    },
-    {
-      "value": "IELGY",
-      "label": "IELGY",
-      "checked": false
-    },
-    {
-      "value": "IELGY fashion",
-      "label": "IELGY fashion",
-      "checked": false
-    },
-    {
-      "value": "Synthetic Leather",
-      "label": "Synthetic Leather",
-      "checked": false
-    },
-    {
-      "value": "Sandals Flip Flops",
-      "label": "Sandals Flip Flops",
-      "checked": false
-    },
-    {
-      "value": "Maasai Sandals",
-      "label": "Maasai Sandals",
-      "checked": false
-    },
-    {
-      "value": "Arrivals Genuine",
-      "label": "Arrivals Genuine",
-      "checked": false
-    },
-    {
-      "value": "Vintage Apparel",
-      "label": "Vintage Apparel",
-      "checked": false
-    },
-    {
-      "value": "FREE FIRE",
-      "label": "FREE FIRE",
-      "checked": false
-    },
-    {
-      "value": "The Warehouse",
-      "label": "The Warehouse",
-      "checked": false
-    },
-    {
-      "value": "Sneakers",
-      "label": "Sneakers",
-      "checked": false
-    },
-    {
-      "value": "Rubber",
-      "label": "Rubber",
-      "checked": false
-    },
-    {
-      "value": "Naviforce",
-      "label": "Naviforce",
-      "checked": false
-    },
-    {
-      "value": "SKMEI 9117",
-      "label": "SKMEI 9117",
-      "checked": false
-    },
-    {
-      "value": "Strap Skeleton",
-      "label": "Strap Skeleton",
-      "checked": false
-    },
-    {
-      "value": "Stainless",
-      "label": "Stainless",
-      "checked": false
-    },
-    {
-      "value": "Eastern Watches",
-      "label": "Eastern Watches",
-      "checked": false
-    },
-    {
-      "value": "Luxury Digital",
-      "label": "Luxury Digital",
-      "checked": false
-    },
-    {
-      "value": "Watch Pearls",
-      "label": "Watch Pearls",
-      "checked": false
-    },
-    {
-      "value": "Bracelet",
-      "label": "Bracelet",
-      "checked": false
-    },
-    {
-      "value": "LouisWill",
-      "label": "LouisWill",
-      "checked": false
-    },
-    {
-      "value": "Copenhagen Luxe",
-      "label": "Copenhagen Luxe",
-      "checked": false
-    },
-    {
-      "value": "Steal Frame",
-      "label": "Steal Frame",
-      "checked": false
-    },
-    {
-      "value": "Darojay",
-      "label": "Darojay",
-      "checked": false
-    },
-    {
-      "value": "Fashion Jewellery",
-      "label": "Fashion Jewellery",
-      "checked": false
-    },
-    {
-      "value": "Cuff Butterfly",
-      "label": "Cuff Butterfly",
-      "checked": false
-    },
-    {
-      "value": "Designer Sun Glasses",
-      "label": "Designer Sun Glasses",
-      "checked": false
-    },
-    {
-      "value": "mastar watch",
-      "label": "mastar watch",
-      "checked": false
-    },
-    {
-      "value": "Car Aux",
-      "label": "Car Aux",
-      "checked": false
-    },
-    {
-      "value": "W1209 DC12V",
-      "label": "W1209 DC12V",
-      "checked": false
-    },
-    {
-      "value": "TC Reusable",
-      "label": "TC Reusable",
-      "checked": false
-    },
-    {
-      "value": "Neon LED Light",
-      "label": "Neon LED Light",
-      "checked": false
-    },
-    {
-      "value": "METRO 70cc Motorcycle - MR70",
-      "label": "METRO 70cc Motorcycle   MR70",
-      "checked": false
-    },
-    {
-      "value": "BRAVE BULL",
-      "label": "BRAVE BULL",
-      "checked": false
-    },
-    {
-      "value": "shock absorber",
-      "label": "shock absorber",
-      "checked": false
-    },
-    {
-      "value": "JIEPOLLY",
-      "label": "JIEPOLLY",
-      "checked": false
-    },
-    {
-      "value": "Xiangle",
-      "label": "Xiangle",
-      "checked": false
-    },
-    {
-      "value": "lightingbrilliance",
-      "label": "lightingbrilliance",
-      "checked": false
-    },
-    {
-      "value": "Ifei Home",
-      "label": "Ifei Home",
-      "checked": false
-    },
-    {
-      "value": "DADAWU",
-      "label": "DADAWU",
-      "checked": false
-    },
-    {
-      "value": "YIOSI",
-      "label": "YIOSI",
+      "value": "Tata",
+      "label": "Tata",
       "checked": false
     }
   ],
   "categories": [
     {
-      "value": "smartphones",
-      "label": "smartphones",
+      "value": "Dal_and_pulses",
+      "label": "Dal and Pulses",
       "checked": false
     },
     {
-      "value": "laptops",
-      "label": "laptops",
+      "value": "Ghee_and_oil",
+      "label": "Ghee and Oil",
       "checked": false
     },
     {
-      "value": "fragrances",
-      "label": "fragrances",
+      "value": "Atta_and_flours",
+      "label": "Atta and Floues",
       "checked": false
     },
     {
-      "value": "skincare",
-      "label": "skincare",
+      "value": "Rice_product",
+      "label": "Rice and Rice product",
       "checked": false
     },
     {
-      "value": "groceries",
-      "label": "groceries",
+      "value": "Dry_fruit",
+      "label": "Dry Fruits",
       "checked": false
     },
     {
-      "value": "home-decoration",
-      "label": "home decoration",
+      "value": "Suger_Jaggery_Salt",
+      "label": "Suger,Jaggery and Salt",
       "checked": false
     },
     {
-      "value": "furniture",
-      "label": "furniture",
+      "value": "Biscuits",
+      "label": "Biscuits",
       "checked": false
     },
     {
-      "value": "tops",
-      "label": "tops",
+      "value": "Chips",
+      "label": "Chips ,Namkeen and snaks",
       "checked": false
     },
     {
-      "value": "womens-dresses",
-      "label": "womens dresses",
+      "value": "Tea",
+      "label": "Tea",
       "checked": false
     },
     {
-      "value": "womens-shoes",
-      "label": "womens shoes",
+      "value": "Coffee",
+      "label": "Coffee",
       "checked": false
     },
     {
-      "value": "mens-shirts",
-      "label": "mens shirts",
+      "value": "Juices",
+      "label": "Juices",
       "checked": false
     },
     {
-      "value": "mens-shoes",
-      "label": "mens shoes",
+      "value": "Health_drink",
+      "label": "Health drink",
       "checked": false
     },
     {
-      "value": "mens-watches",
-      "label": "mens watches",
+      "value": "Soft_drink",
+      "label": "Soft drink",
       "checked": false
     },
     {
-      "value": "womens-watches",
-      "label": "womens watches",
+      "value": "Water",
+      "label": "Water",
       "checked": false
     },
     {
-      "value": "womens-bags",
-      "label": "womens bags",
+      "value": "Soaps",
+      "label": "Soaps and Bodywash",
       "checked": false
     },
     {
-      "value": "womens-jewellery",
-      "label": "womens jewellery",
+      "value": "Hair_care",
+      "label": "Hair Care",
       "checked": false
     },
     {
-      "value": "sunglasses",
-      "label": "sunglasses",
+      "value": "Oral_care",
+      "label": "Oral Care",
       "checked": false
     },
     {
-      "value": "automotive",
-      "label": "automotive",
+      "value": "Perfumes",
+      "label": "Deos,Perfumes and Talc",
       "checked": false
     },
     {
-      "value": "motorcycle",
-      "label": "motorcycle",
+      "value": "Cream",
+      "label": "Cream,Lotions and Skin Care",
       "checked": false
     },
     {
-      "value": "lighting",
-      "label": "lighting",
+      "value": "Makeup",
+      "label": "Makeup products",
+      "checked": false
+    },
+    {
+      "value": "Baby_food",
+      "label": "Baby Food",
+      "checked": false
+    },
+    {
+      "value": "Baby_care",
+      "label": "Baby Bath and Skin care",
+      "checked": false
+    },
+    {
+      "value": "Detergent",
+      "label": "Detergent and Londary",
+      "checked": false
+    },
+    {
+      "value": "Utensil",
+      "label": "Utensil Cleaners",
+      "checked": false
+    },
+    {
+      "value": "Floor_cleaner",
+      "label": "Floor and other cleaner",
+      "checked": false
+    },
+    {
+      "value": "Ketchups",
+      "label": "Ketchups",
+      "checked": false
+    },
+    {
+      "value": "Chocolate",
+      "label": "Chocolate & Sweets",
+      "checked": false
+    },
+    {
+      "value": "Honey",
+      "label": "Jams and honey",
+      "checked": false
+    },
+    {
+      "value": "Pickle",
+      "label": "Pickles and Chutney",
       "checked": false
     }
+    
   ],
   "users": [
     {
@@ -3014,13 +2704,13 @@
     {
       "items": [
         {
-          "title": "Microsoft Surface Laptop 4",
+          "title": "Aashirvaad Laptop 4",
           "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
           "price": 1499,
           "discountPercentage": 10.23,
           "rating": 4.43,
           "stock": 68,
-          "brand": "Microsoft Surface",
+          "brand": "Aashirvaad",
           "category": "laptops",
           "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
           "images": [
@@ -3070,13 +2760,13 @@
     {
       "items": [
         {
-          "title": "Microsoft Surface Laptop 4",
+          "title": "Aashirvaad Laptop 4",
           "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
           "price": 1499,
           "discountPercentage": 10.23,
           "rating": 4.43,
           "stock": 68,
-          "brand": "Microsoft Surface",
+          "brand": "Aashirvaad",
           "category": "laptops",
           "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
           "images": [
